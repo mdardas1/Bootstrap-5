@@ -1,0 +1,62 @@
+html,
+body {
+    height: 100%;
+    font-size: 0.85rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.gradient{
+    background: rgb(2,0,36);
+    background: linear-gradient(
+    90deg, 
+    rgb(10, 223, 113) 0%,
+    rgb(152, 223, 28) 35%, rgba(0,212,255,1) 100%
+    );
+}
+
+.page-header {
+  margin-top:5rem;
+  font-size: 1.50rem;
+  color: white;
+}
+
+.Random{
+    color:rgb(237, 191, 123)
+}
+
+.Random ul{
+    padding-left: 2rem;
+    list-style-type:none; 
+}
+
+.Random ul li{
+    padding-left: 2rem;
+    background-image: url(../img/check.svg);
+    background-repeat: none;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.icon {
+color: blanchedalmond;
+height: 5rem;
+width: 5rem;
+font-size: 1.75rem;
+border-radius: 100%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+
+.gallery {
+    background-color: rgb(220, 97, 116);
+}
+
+.gallery img {
+   border-radius: 5%; 
+}
+
+.services{
+    color:rgb(0, 157, 255)
+}
